@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",//翻译出来的语法
+    "module": "commonjs",//使用commonjs模块
+    "outDir": "./js/",//翻译出来的文件存放在./js文件夹中
+    "rootDir": "./tscript/",//需要翻译的文件放在./tscript文件夹中
+    "esModuleInterop": true
+    // esModuleInterop取决于设置的内容module。
+    // 如果有"module": "commonjs"，则只需启用"esModuleInterop": true。
+    // 如果您有"module": "es2015"或者"module": "esnext"，
+    //您还必须启用"allowSyntheticDefaultImports": true以便导入CommonJS模块（如React）作为默认值。
+  }
+}
